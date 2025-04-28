@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 35,
+        "phosphorus": 12,
+        "potassium": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 40,
+        "phosphorus": 15,
+        "potassium": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 38,
+        "phosphorus": 14,
+        "potassium": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 45,
+        "phosphorus": 16,
+        "potassium": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 42,
+        "phosphorus": 13,
+        "potassium": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 50,
+        "phosphorus": 18,
+        "potassium": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 37,
+        "phosphorus": 11,
+        "potassium": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.717873,
+          30.704649
+        ]
+      },
+      "properties": {
+        "nitrogen": 44,
+        "phosphorus": 17,
+        "potassium": 24
+      }
+    }
+  ]
+}

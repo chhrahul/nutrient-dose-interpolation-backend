@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Point A", "X": 76.717873, "Y": 30.704649, "nitrogen": 35, "phosphorus": 12, "potassium": 18 }, "geometry": { "type": "Point", "coordinates": [ 76.717873, 30.704649 ] } },
+{ "type": "Feature", "properties": { "name": "Point B", "X": 76.718, "Y": 30.705, "nitrogen": 40, "phosphorus": 14, "potassium": 20 }, "geometry": { "type": "Point", "coordinates": [ 76.718, 30.705 ] } },
+{ "type": "Feature", "properties": { "name": "Point C", "X": 76.719, "Y": 30.706, "nitrogen": 45, "phosphorus": 16, "potassium": 25 }, "geometry": { "type": "Point", "coordinates": [ 76.719, 30.706 ] } },
+{ "type": "Feature", "properties": { "name": "Point D", "X": 76.72, "Y": 30.707, "nitrogen": 50, "phosphorus": 18, "potassium": 28 }, "geometry": { "type": "Point", "coordinates": [ 76.72, 30.707 ] } },
+{ "type": "Feature", "properties": { "name": "Point E", "X": 76.721, "Y": 30.708, "nitrogen": 48, "phosphorus": 17, "potassium": 26 }, "geometry": { "type": "Point", "coordinates": [ 76.721, 30.708 ] } }
+]
+}

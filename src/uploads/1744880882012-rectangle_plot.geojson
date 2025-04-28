@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rectangle Plot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.32,
+              27.714
+            ],
+            [
+              85.335,
+              27.714
+            ],
+            [
+              85.335,
+              27.721
+            ],
+            [
+              85.32,
+              27.721
+            ],
+            [
+              85.32,
+              27.714
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

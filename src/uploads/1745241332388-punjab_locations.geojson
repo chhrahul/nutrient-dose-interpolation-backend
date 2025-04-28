@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.8723,
+          31.634
+        ]
+      },
+      "properties": {
+        "Name": "Amritsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8573,
+          30.9
+        ]
+      },
+      "properties": {
+        "Name": "Ludhiana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5762,
+          31.326
+        ]
+      },
+      "properties": {
+        "Name": "Jalandhar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3869,
+          30.3398
+        ]
+      },
+      "properties": {
+        "Name": "Patiala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9455,
+          30.211
+        ]
+      },
+      "properties": {
+        "Name": "Bathinda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.912,
+          31.5324
+        ]
+      },
+      "properties": {
+        "Name": "Hoshiarpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6131,
+          30.925
+        ]
+      },
+      "properties": {
+        "Name": "Ferozepur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6421,
+          32.2643
+        ]
+      },
+      "properties": {
+        "Name": "Pathankot"
+      }
+    }
+  ]
+}

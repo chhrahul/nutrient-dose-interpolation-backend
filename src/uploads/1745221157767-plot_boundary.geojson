@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Plot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.717673,
+              30.704549
+            ],
+            [
+              76.718073,
+              30.704549
+            ],
+            [
+              76.718073,
+              30.704749
+            ],
+            [
+              76.717673,
+              30.704749
+            ],
+            [
+              76.717673,
+              30.704549
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

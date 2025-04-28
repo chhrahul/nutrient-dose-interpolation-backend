@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.546,
+          29.964
+        ]
+      },
+      "properties": {
+        "nitrogen": 44,
+        "phosphorus": 18,
+        "potassium": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.55,
+          29.97
+        ]
+      },
+      "properties": {
+        "nitrogen": 30,
+        "phosphorus": 20,
+        "potassium": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.54,
+          29.96
+        ]
+      },
+      "properties": {
+        "nitrogen": 50,
+        "phosphorus": 20,
+        "potassium": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.555,
+          29.955
+        ]
+      },
+      "properties": {
+        "nitrogen": 35,
+        "phosphorus": 12,
+        "potassium": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.548,
+          29.967
+        ]
+      },
+      "properties": {
+        "nitrogen": 50,
+        "phosphorus": 14,
+        "potassium": 17
+      }
+    }
+  ]
+}

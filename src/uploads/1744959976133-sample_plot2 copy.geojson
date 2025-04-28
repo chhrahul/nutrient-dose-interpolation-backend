@@ -1,0 +1,2 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": "Test Plot"}, "geometry": {"type": "Polygon", "coordinates": [[[85.324, 27.715], [85.331, 27.715], [85.331, 27.719], [85.324, 27.719], [85.324, 27.715]]]}}]}
+

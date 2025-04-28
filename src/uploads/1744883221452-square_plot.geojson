@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Square Plot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.323,
+              27.715
+            ],
+            [
+              85.332,
+              27.715
+            ],
+            [
+              85.332,
+              27.72
+            ],
+            [
+              85.323,
+              27.72
+            ],
+            [
+              85.323,
+              27.715
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

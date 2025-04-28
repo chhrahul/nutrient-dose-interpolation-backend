@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Test Plot Boundary" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.5940, 12.9712],
+          [77.5970, 12.9712],
+          [77.5970, 12.9728],
+          [77.5940, 12.9728],
+          [77.5940, 12.9712]
+        ]]
+      }
+    }
+  ]
+}
