@@ -37,7 +37,7 @@ It handles file uploads, runs a Python geostatistical interpolation script (krig
 
 ## Tech Stack and Version
 
-1. Node 
+1. Node -> 23.10.0
 2. Express 
-2. Python 
+2. Python -> 3.13.3
 
