@@ -128,7 +128,9 @@ try:
     # === Generate colorbar legends for nutrients ===
     generate_colorbar_png(min_n, max_n, 'Reds', 'Nitrogen (mg/kg)', 'output/legend-nitrogen.svg')
     generate_colorbar_png(min_p, max_p, 'Greens', 'Phosphorus (mg/kg)', 'output/legend-phosphorus.svg')
-    generate_colorbar_png(min_k, max_k, 'Blues', 'Potassium (mg/kg)', 'output/legend-potassium.svg')
+    # generate_colorbar_png(min_k, max_k, 'Blues', 'Potassium (mg/kg)', 'output/legend-potassium.svg')
+    generate_colorbar_png(min_k, max_k, 'YlOrBr', 'Potassium (mg/kg)', 'output/legend-potassium.svg')
+
    
    # === Create RGB-stacked visualization ===
     rgb = np.dstack((z_n, z_p, z_k))
@@ -146,14 +148,16 @@ try:
     cs_P = plt.contourf(grid_x, grid_y, predictions_P, levels=contour_levels, cmap='Greens', alpha=0.5)
         
     # Potassium
-    cs_K = plt.contourf(grid_x, grid_y, predictions_K, levels=contour_levels, cmap='Blues', alpha=0.4)
+    # cs_K = plt.contourf(grid_x, grid_y, predictions_K, levels=contour_levels, cmap='Blues', alpha=0.4)
+    cs_K = plt.contourf(grid_x, grid_y, predictions_K, levels=contour_levels, cmap='YlOrBr', alpha=0.4)
    
     # Outline contours
     plt.contour(grid_x, grid_y, predictions_N, levels=contour_levels, colors='darkred', linewidths=0.5)
     plt.contour(grid_x, grid_y, predictions_P, levels=contour_levels, colors='darkgreen', linewidths=0.5)
-    plt.contour(grid_x, grid_y, predictions_K, levels=contour_levels, colors='darkblue', linewidths=0.5)
+    # plt.contour(grid_x, grid_y, predictions_K, levels=contour_levels, colors='darkblue', linewidths=0.5)
+    plt.contour(grid_x, grid_y, predictions_K, levels=contour_levels, colors='goldenrod', linewidths=0.5)
    
-    plt.title("Interpolated Nutrient Levels (R: N, G: P, B: K)")
+    plt.title("Interpolated Nutrient Levels (R: N, G: P, Y: K)")
     plt.xlabel("X")
     plt.ylabel("Y")
 
@@ -209,7 +213,8 @@ try:
     
     # For Potassium (Blue)
     cax_k = divider.append_axes("right", size="2%", pad=0.7)
-    cmap_k = cm.Blues
+    # cmap_k = cm.Blues
+    cmap_k = cm.YlOrBr
     norm_k = mcolors.Normalize(vmin=min_k, vmax=max_k)
     cb_k = plt.colorbar(cm.ScalarMappable(norm=norm_k, cmap=cmap_k), cax=cax_k)
     cb_k.set_label("Potassium (mg/kg)", fontsize=8)
